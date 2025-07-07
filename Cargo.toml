@@ -1,0 +1,21 @@
+[package]
+name = "encryption-valt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = "0.10" 
+aes = "0.7"
+rand = "0.8.5"
+argon2 = "0.5"
+base64 = "0.22"
+clap = { version = "4", features = ["derive"] }
+image = "0.25.6"
+anyhow = "1"
+rpassword = "7.4.0"
+block-modes = "0.8.1"  
+block-padding = "0.3"
+sha2 = "0.10"
+tokio = { version = "1", features = ["full"] }
+password-hash = "0.5"
+byteorder ="1.5"
